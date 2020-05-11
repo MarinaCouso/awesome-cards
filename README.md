@@ -75,11 +75,10 @@ Este comando borra la carpeta **docs/**, la vuelve a generar, crea un commit con
 
 1. **Visual Studio Code** - Editor de código.
 2. **Javascript** - Lenguaje de programación.
-3. **React** - Framework para el desarollo de la interfaz.
-4. **Git** - Para el control de versiones.
-5. **Github** - Como repositorio remoto.
-6. **Github Pages** - Para su publicación.
-7. **SASS** - Para añadir estilos.
+3. **Git** - Para el control de versiones.
+4. **Github** - Como repositorio remoto.
+5. **Github Pages** - Para su publicación.
+6. **SASS** - Para añadir estilos.
 
 ---
 
