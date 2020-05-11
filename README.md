@@ -1,11 +1,12 @@
-![Adalab](_src/assets/images/logo-adalab-80px.png)
+# Awesome Profile Cards :information_desk_person:
 
-# Adalab web starter kit
+Aplicación para crear tarjetas de contacto personalizables, web refactorizada partiendo de ![este proyecto] (https://github.com/Adalab/project-promo-i-module-2-team-2-morning)desarrollado en javascript . Gracias a esta aplicación, podrás crear una tarjeta personalizada con tus datos personales, tus datos de contacto, tu imagen y además, podrás compartirla en Twitter de forma directa!
 
-Ahoy! Esta es nuestro Starter Kit en node/gulp para este primer contacto con el desarrollo web
-Incluye SCSS, un sistema de plantillas HTML y un web server.
+---
 
 ## Guía de inicio rápido
+
+Este proyecto ha sido creado con [Adalab We Starter Kit](https://github.com/Adalab/Adalab-web-starter-kit).
 
 Necesitarás instalar [Node.js](https://nodejs.org/) y [Gulp](https://gulpjs.com) para trabajar con este Starter Kit, luego:
 
@@ -70,55 +71,28 @@ npm run push-docs
 
 Este comando borra la carpeta **docs/**, la vuelve a generar, crea un commit con los nuevos ficheros y hace un `git push`, todo del tirón. ¿Cómo se te queda el cuerpo?. Si quieres saber cómo funciona échale un ojo al fichero `package.json`.
 
-## Flujo de archivos con gulp
+## Construido con :hammer_and_wrench:
 
-Estas tareas de gulp producen el siguiente flujo de archivos:
+1. **Visual Studio Code** - Editor de código.
+2. **Javascript** - Lenguaje de programación.
+3. **React** - Framework para el desarollo de la interfaz.
+4. **Git** - Para el control de versiones.
+5. **Github** - Como repositorio remoto.
+6. **Github Pages** - Para su publicación.
+7. **SASS** - Para añadir estilos.
 
-![Gulp flow](./gulp-flow.png)
+---
 
-## Estructura del proyecto
+## Otras fuentes :wrench:
 
-Nuestro **gulpfile.js** usa un JSON de configuración con las rutas de los archivos a generar/vigilar.
+1. [Awesome Cards](https://us-central1-awesome-cards-cf6f0.cloudfunctions.net/) - Para crear las tarjetas de contacto.
+2. [Fontawesome](https://fontawesome.com/) - Para obtener iconos utilizados en diferentes componentes.
 
-La estructura de carpetas tiene esta pinta:
+---
 
-```
-/
-`- _src
-   |- api
-   |  |- data.json // para crearnos un servidor de datos local
-   |- assets
-   |  |- icons
-   |  |- images
-   |  |- js
-   |  `- scss
-   |     `- core
-   |
-   `- templates
-      `- partials
+## Equipo de desarrollo :fountain_pen:
 
-```
+[Margarita Berjón](https://github.com/MargaritaBerjon), 
+[Beatriz F. León](https://github.com/Beatrizfleon), [María José](https://github.com/mjperezma),[Adhara Monzón](https://github.com/adharamonzon) y [MarinaCouso](https://github.com/MarinaCouso),
 
-## HTML
 
-Viene incluído el paquete [**gulp-html-partial**](https://www.npmjs.com/package/gulp-html-partial) que nos va a permitir tener un sistema de plantillas html
-
-## Imágenes e iconos
-
-Tenemos en **\_src/** una carpeta para las imágenes del proyecto y una para los iconos como el favicon o los iconos de dispositivos móviles. Estos últimos se generan en la raíz de las carpetas **public/** y **docs/**
-
-## CSS
-
-Viene incluído el paquete [**gulp-combine-mq**](https://www.npmjs.com/package/gulp-combine-mq) que agrupa todas las mediaqueries al final del documento css.
-
-## JS
-
-Podemos usar parciales de JS: en el JSON de configuración, **config.json** especificamos los archivos JS que utilizamos y en el orden que deben procesarse.
-
-## ¿Cómo actualizo si tengo una versión anterior?
-
-En principio puedes descargar todos los archivos fuera de **\_src/** y sustituir los de tu proyecto. Además deberías replicar la estructura de carpetas dentro de **\_src/**.
-
-## Falta algo?
-
-Echas de menos que el kit haga algo en concreto? Pidelo sin problema a través de los Issues o si te animas a mejorarlo mándanos un PR :)
